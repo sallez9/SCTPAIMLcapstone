@@ -12,10 +12,10 @@ The dataset used in this project is derived from the [Fruits 360 dataset](https:
 This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type.
 
 **Findings and Techniques**
-To prepare the dataset for our project focused on produce quality inspection, we needed to consolidate certain classes. Specifically, we aimed to merge the "apple hit" and "apple rotten" classes into a single category, which we termed "defective fruit." This allowed us to simplify the task of classifying defective versus non-defective apples.
+To prepare the dataset for our project focused on produce quality inspection for fresh or defective apples, we needed to consolidate certain classes. Specifically, we aimed to merge the "apple hit" and "apple rotten" classes into a single category, which we termed "apple defect". This allowed us to simplify the task of classifying defect versus fresh apples.
 To achieve this, we used Python scripting to rename and merge the files from the "apple hit" and "apple rotten" folders into one unified directory. This step was crucial for balancing the dataset and ensuring that the classifier could distinguish between healthy and defective fruits effectively. These steps provided a solid foundation for the subsequent machine learning and computer vision tasks, ultimately contributing to more accurate fruit quality classification.
 The preprocessing involved:
-1. **Merging Classes**: We wrote Python code to combine the images from the "apple hit" and "apple rotten" classes into a new folder, "defective fruit."
+1. **Merging Classes**: We wrote Python code to combine the images from the "apple hit" and "apple rotten" classes into a new folder, "apple defect".
 2. **File Renaming**: To avoid filename conflicts, we automatically renamed the files during the merging process, ensuring unique identifiers for each image.
 3. **Data Validation**: After merging, we validated the dataset to ensure that the images were correctly labeled and located in the appropriate directories for model training.
 
