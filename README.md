@@ -1,14 +1,23 @@
-# My first capstone
+# Capstone project for AI ML
 
-### An analysis of snake-eating squirrels in Peru in 1988
+### Computer Vision for defect fruit detection based on fruit 360 database
 
 ![Screenshot of dashboard](https://i.imgur.com/UujCjhB.png)
 
-[Link to dataset](https://people.sc.fsu.edu/~jburkardt/data/csv/addresses.csv)
+[Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git)
 
-Description of dataset
+**Description of the Dataset**
+The dataset used in this project is derived from the [Fruits 360 dataset](https://github.com/fruits-360) (Version: 2020.05.18.0), which is a comprehensive collection of images featuring various fruits and vegetables. The dataset is publicly available under the CC-BY-SA 4.0 license, allowing for both academic and commercial use with appropriate attribution.
 
-(Para about your findings and techniques you used) "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type.
+
+**Findings and Techniques**
+To prepare the dataset for our project focused on produce quality inspection, we needed to consolidate certain classes. Specifically, we aimed to merge the "apple hit" and "apple rotten" classes into a single category, which we termed "defective fruit." This allowed us to simplify the task of classifying defective versus non-defective apples.
+To achieve this, we used Python scripting to rename and merge the files from the "apple hit" and "apple rotten" folders into one unified directory. This step was crucial for balancing the dataset and ensuring that the classifier could distinguish between healthy and defective fruits effectively. These steps provided a solid foundation for the subsequent machine learning and computer vision tasks, ultimately contributing to more accurate fruit quality classification.
+The preprocessing involved:
+1. **Merging Classes**: We wrote Python code to combine the images from the "apple hit" and "apple rotten" classes into a new folder, "defective fruit."
+2. **File Renaming**: To avoid filename conflicts, we automatically renamed the files during the merging process, ensuring unique identifiers for each image.
+3. **Data Validation**: After merging, we validated the dataset to ensure that the images were correctly labeled and located in the appropriate directories for model training.
 
 <details>
 <summary><b>Foldable hidden section</b></summary>
