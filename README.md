@@ -2,7 +2,10 @@
 
 ### Computer Vision for defect fruit detection based on fruit 360 database
 
-![Screenshot of dashboard](https://i.imgur.com/a/xB05qUT.jpg)
+![Screenshot of Batch Apple image](https://i.imgur.com/xB05qUT.jpeg)
+![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpeg)
+
+https://imgur.com/JcQpv6h
 
 [Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git)
 
