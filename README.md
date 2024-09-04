@@ -20,14 +20,13 @@ The preprocessing involved:
 
 <details>
 <summary><b>Foldable hidden section</b></summary>
-![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpg)
-
 Any folded content here. It requires an empty line just above it!
 
 </details>
 
 What you learned
-
+![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpg)
+![Screenshot of accuracy and loss diagram](https://i.imgur.com/v0rKWwz.jpg)
 What you'd change
 
 Link to your LinkedIn
