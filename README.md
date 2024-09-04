@@ -20,7 +20,7 @@ The preprocessing involved:
 
 <details>
 <summary><b>Foldable hidden section</b></summary>
-![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpeg)
+![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpg)
 
 Any folded content here. It requires an empty line just above it!
 
