@@ -3,9 +3,6 @@
 ### Computer Vision for defect fruit detection based on fruit 360 database
 
 ![Screenshot of Batch Apple image](https://i.imgur.com/boAPlwo.jpg)
-![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpeg)
-
-
 
 [Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git)
 
@@ -23,6 +20,7 @@ The preprocessing involved:
 
 <details>
 <summary><b>Foldable hidden section</b></summary>
+![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpeg)
 
 Any folded content here. It requires an empty line just above it!
 
