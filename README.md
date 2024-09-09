@@ -1,6 +1,6 @@
 # Capstone project for AI ML
 
-### Computer Vision for defect fruit detection based on fruit 360 database
+### Computer Vision for defect apple detection based on fruit 360 database
 
 ![Screenshot of Batch Apple image](https://i.imgur.com/boAPlwo.jpg)
 
