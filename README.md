@@ -13,7 +13,7 @@ The dataset used in this project is derived from the [Fruits 360 dataset](https:
 To prepare the dataset for our project focused on produce quality visual inspection for fresh or defective apples, we needed to consolidate certain classes. Specifically, we aimed to merge the "apple hit" and "apple rotten" classes into a single category, which we termed "apple defect". This allowed us to simplify the task of classifying defect versus fresh apples. 
 To achieve this, we used Python scripting to rename and merge the files from the "apple hit" and "apple rotten" folders into one unified directory. This step was crucial for balancing the dataset and ensuring that the classifier could distinguish between healthy and defective fruits effectively. These steps provided a solid foundation for the subsequent machine learning and computer vision tasks, ultimately contributing to more accurate fruit quality classification.
 The preprocessing involved:
-1. **Merge Class folders**: Create class for "fresh apples" and "defect apples". Merge "apple hit" and "apple rotten" folders into one unified defect apple directory. Similarly for fesh apple.
+1. **Merge Class folders**: Create class for "fresh apples" and "defect apples". Merge "apple hit" and "apple rotten" folders into one unified defect apple directory. Similarly for fresh apple.
 2. **File Renaming**: To avoid filename conflicts, we automatically renamed the files during the merging process, ensuring unique identifiers for each image.
 3. **Combine Images based on Class**: Combine the images from the "apple hit" and "apple rotten" classes into "apple defect". Similarly for images from the "apple red 1", "apple red 2" and "apple red 3" classes into "apple fresh".
 
