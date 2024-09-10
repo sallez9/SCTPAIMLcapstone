@@ -53,7 +53,7 @@ Fruit image classification can be extended to numerous practical applications, f
 </details>
   
 **What you'd change**
-There will still be a need to identify if there is an opportunity for low cost deployment 
+Need to add more images for better quality results. There will still be a need to identify if there is an opportunity for low cost deployment 
 There is a need to ensure the ethical deployment of AI where there is no unfair job displacement to e.g. farmers.  
 
 [Link to your LinkedIn](https://www.linkedin.com/in/zubaidah-sallehuddin/)
