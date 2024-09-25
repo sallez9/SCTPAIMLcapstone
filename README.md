@@ -23,12 +23,15 @@ The preprocessing involved:
 **1. Early Stopping Prevented Overfitting:**
 - The validation accuracy curve starts to plateau or even decline after epoch 3. This indicates that the model is starting to overfit the training data, learning the noise and idiosyncrasies rather than the underlying patterns.
 - Early stopping at epoch 3 prevents the model from further training and overfitting, preserving its generalization ability.
+  
 **2. Model Performance at Epoch 3:**
 - The model achieved a training accuracy of around 0.95 and a validation accuracy of around 0.95 at epoch 3. These values suggest that the model has learned the underlying patterns effectively and has reasonable generalization performance.
+  
 **3. Potential for Improvement:**
 - While early stopping at epoch 3 prevented overfitting, it's possible that further training with careful regularization techniques (e.g., L1 or L2 regularization) could have improved the model's performance.
 - Exploring different hyperparameter settings or architectural changes might also lead to better results.
-![Screenshot of accuracy and loss diagram](https://i.imgur.com/v0rKWwz.jpg)
+  
+[Accuracy and loss diagram](https://i.imgur.com/v0rKWwz.jpg)
   
 </details>
 
@@ -37,7 +40,9 @@ The preprocessing involved:
 We created a fairly accurate image classifier, as:
 The model accurately predicted most of the considered apple fresh or defect categories.
 The model can incorrectly label where the apples appear similar in colors and shapes, they can be challenging for the model to classify. 
-![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpg)
+  
+![Screenshot of confusion matrix]
+(https://i.imgur.com/JcQpv6h.jpg)
 
 This can be improved by training the model with additional data using data augmentation in Keras, experimenting with adding Batch normalization to the CNN layers to improve and stabilize the learning process, adding more layers to the neural network, Adding L2 regularization, experimenting with the dropout rate, learning rate. Apart from these points, the model does a good job of classifying.
 Fruit image classification can be extended to numerous practical applications, from sorting ripe fruits to detecting diseases. It offers efficiency, accuracy, and potential for optimizing inventory management in various industries. Similarly, Deep Learning can also be extended to broader plant species detection, benefiting agricultural industries.Exploring these use cases can create an awareness about potential AI projects in agricultural domain.
@@ -47,13 +52,17 @@ Fruit image classification can be extended to numerous practical applications, f
 
 <details>
 <summary><b>What I have learned</b></summary>
+  
 1. Initally, getting the dataset was the focus as our first project milestone was to secure the dataset and I was able to quickly select a popular dataset. HOwever, my intial problem statement lack of a clear business objective that hindered progress. Dataset was further refined again and again.
+  
 2. Issue of biased datasets: overrepresentation of classes, if the dataset includes mostly apples from a particular farm, the model might not perform well on apples from other farms with different growing conditions or varieties.
 
 </details>
   
 **What you'd change**
-Need to add more images for better quality results. There will still be a need to identify if there is an opportunity for low cost deployment 
-There is a need to ensure the ethical deployment of AI where there is no unfair job displacement to e.g. farmers.  
+
+- Need to add more images for better quality results. 
+- There will still be a need to identify if there is an opportunity for low cost deployment 
+- There is a need to ensure the ethical deployment of AI where there is no unfair job displacement to e.g. farmers.  
 
 [Link to your LinkedIn](https://www.linkedin.com/in/zubaidah-sallehuddin/)
