@@ -6,16 +6,27 @@
 
 [Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git)
 
-**Description of the Dataset**
-The dataset used in this project is derived from the [Fruits 360 dataset](https://github.com/fruits-360) (Version: 2020.05.18.0), which is a comprehensive collection of images featuring various fruits and vegetables. The dataset is publicly available under the CC-BY-SA 4.0 license, allowing for both academic and commercial use with appropriate attribution. This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type. AI ML CV can be used to automate apple quality visual inspection via DL CNN. By analyzing images of apples, algorithms can accurately identify defects like bruises, blemishes, and wormholes, ensuring that only high-quality fruits reach consumers.
 
-**Findings and Techniques**
+This project proposes a method involving the deep learning technique which is CNN for feature extraction and classification of defect fruits. It is one of the applications of image classification problems. This approach uses an RGB channel image of the fruit under examination.
+
+Use Case: Detecting Defect Fruits
+
+With Deep Learning's capabilities, fruit classification can be well implemented as a replacement of traditional manual methods in the agricultural, horticultural and botany domains. By utilizing these models,we can introduce efficiency and accuracy into various fruit-related processes.
+
+<details>
+<summary><b>Description of the Dataset</b></summary>
+The dataset used in this project is derived from the [Fruits 360 dataset](https://github.com/fruits-360) (Version: 2020.05.18.0), which is a comprehensive collection of images featuring various fruits and vegetables. The dataset is publicly available under the CC-BY-SA 4.0 license, allowing for both academic and commercial use with appropriate attribution. This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type. AI ML CV can be used to automate apple quality visual inspection via DL CNN. By analyzing images of apples, algorithms can accurately identify defects like bruises, blemishes, and wormholes, ensuring that only high-quality fruits reach consumers.
+</details>
+
+<details>
+<summary><b>Findings and Techniques</b></summary>
 To prepare the dataset for our project focused on produce quality visual inspection for fresh or defective apples, we needed to consolidate certain classes. Specifically, we aimed to merge the "apple hit" and "apple rotten" classes into a single category, which we termed "apple defect". This allowed us to simplify the task of classifying defect versus fresh apples. 
 To achieve this, we used Python scripting to rename and merge the files from the "apple hit" and "apple rotten" folders into one unified directory. This step was crucial for balancing the dataset and ensuring that the classifier could distinguish between healthy and defective fruits effectively. These steps provided a solid foundation for the subsequent machine learning and computer vision tasks, ultimately contributing to more accurate fruit quality classification.
 The preprocessing involved:
 1. **Merge Class folders**: Create class for "fresh apples" and "defect apples". Merge "apple hit" and "apple rotten" folders into one unified defect apple directory. Similarly for fresh apple.
 2. **File Renaming**: To avoid filename conflicts, we automatically renamed the files during the merging process, ensuring unique identifiers for each image.
 3. **Combine Images based on Class**: Combine the images from the "apple hit" and "apple rotten" classes into "apple defect". Similarly for images from the "apple red 1", "apple red 2" and "apple red 3" classes into "apple fresh".
+</details>
 
 <details>
 <summary><b>Model Training</b></summary>
