@@ -4,9 +4,6 @@
 
 ![Screenshot of Batch Apple image](https://i.imgur.com/boAPlwo.jpg)
 
-[Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git)
-
-
 This project proposes a method involving the deep learning technique which is CNN for feature extraction and classification of defect fruits. It is one of the applications of image classification problems. This approach uses an RGB channel image of the fruit under examination.
 
 Use Case: Detecting Defect Fruits
@@ -15,7 +12,7 @@ With Deep Learning's capabilities, fruit classification can be well implemented 
 
 <details>
 <summary><b>Description of the Dataset</b></summary>
-The dataset used in this project is derived from the [Fruits 360 dataset](https://github.com/fruits-360) (Version: 2020.05.18.0), which is a comprehensive collection of images featuring various fruits and vegetables. The dataset is publicly available under the CC-BY-SA 4.0 license, allowing for both academic and commercial use with appropriate attribution. This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type. AI ML CV can be used to automate apple quality visual inspection via DL CNN. By analyzing images of apples, algorithms can accurately identify defects like bruises, blemishes, and wormholes, ensuring that only high-quality fruits reach consumers.
+The dataset used in this project [Link to dataset](https://github.com/sallez9/SCTPAIMLcapstone.git) is derived from the [Fruits 360 dataset](https://github.com/fruits-360) (Version: 2020.05.18.0), which is a comprehensive collection of images featuring various fruits and vegetables. The dataset is publicly available under the CC-BY-SA 4.0 license, allowing for both academic and commercial use with appropriate attribution. This dataset is organized into three main subsets: training, test, and validation, with a diverse array of classes representing different types of fruits and vegetables. For instance, in the training set, you may find separate folders for specific fruit classes, such as "apple red," "apple hit," and "apple rotten." This granularity allows for the exploration of multiple characteristics, such as freshness or damage, within a single fruit type. AI ML CV can be used to automate apple quality visual inspection via DL CNN. By analyzing images of apples, algorithms can accurately identify defects like bruises, blemishes, and wormholes, ensuring that only high-quality fruits reach consumers.
 </details>
 
 <details>
