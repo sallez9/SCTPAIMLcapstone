@@ -31,7 +31,7 @@ The preprocessing involved:
 - While early stopping at epoch 3 prevented overfitting, it's possible that further training with careful regularization techniques (e.g., L1 or L2 regularization) could have improved the model's performance.
 - Exploring different hyperparameter settings or architectural changes might also lead to better results.
   
-[Accuracy and loss diagram](https://i.imgur.com/v0rKWwz.jpg)
+![Accuracy and loss diagram](https://i.imgur.com/v0rKWwz.jpg)
   
 </details>
 
@@ -41,8 +41,7 @@ We created a fairly accurate image classifier, as:
 The model accurately predicted most of the considered apple fresh or defect categories.
 The model can incorrectly label where the apples appear similar in colors and shapes, they can be challenging for the model to classify. 
   
-![Screenshot of confusion matrix]
-(https://i.imgur.com/JcQpv6h.jpg)
+![Screenshot of confusion matrix](https://i.imgur.com/JcQpv6h.jpg)
 
 This can be improved by training the model with additional data using data augmentation in Keras, experimenting with adding Batch normalization to the CNN layers to improve and stabilize the learning process, adding more layers to the neural network, Adding L2 regularization, experimenting with the dropout rate, learning rate. Apart from these points, the model does a good job of classifying.
 Fruit image classification can be extended to numerous practical applications, from sorting ripe fruits to detecting diseases. It offers efficiency, accuracy, and potential for optimizing inventory management in various industries. Similarly, Deep Learning can also be extended to broader plant species detection, benefiting agricultural industries.Exploring these use cases can create an awareness about potential AI projects in agricultural domain.
