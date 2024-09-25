@@ -52,7 +52,7 @@ Fruit image classification can be extended to numerous practical applications, f
 <details>
 <summary><b>What I have learned</b></summary>
   
-1. Initally, getting the dataset was the focus as our first project milestone was to secure the dataset and I was able to quickly select a popular dataset. HOwever, my intial problem statement lack of a clear business objective that hindered progress. Dataset was further refined again and again.
+1. Initally, getting the dataset was the focus as our first project milestone was to secure the dataset and I was able to quickly select a popular dataset. However, my intial problem statement lack of a clear business objective that hindered progress. Dataset was further refined again and again.
   
 2. Issue of biased datasets: overrepresentation of classes, if the dataset includes mostly apples from a particular farm, the model might not perform well on apples from other farms with different growing conditions or varieties.
 
